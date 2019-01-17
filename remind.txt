@@ -1,1 +1,16 @@
-connect git
+github 本地连接远程仓库须知
+
+https://blog.csdn.net/wuli_smbug/article/details/81480162 参考网址
+
+获取当前本机的ssh-key
+
+1. ssh-keygen -t rsa 【连续三次回车（即不做任何输入】
+
+2. cat id_rsa.pub 【（去指定目录下）复制所有内容】
+
+查看
+   git config user.name
+   git config user.email
+修改
+   git config --global user.name "username"
+   git config --global user.email "email"
